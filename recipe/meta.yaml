@@ -1,4 +1,4 @@
-{% set version = "v0.4.2" %}
+{% set version = "0.4.2" %}
 {% set sha256 = "541616df177e13f914fca2f749c64f723d7b83c8ea9096509c9f318676ea91da" %}
 
 package:
@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ version }}.tar.gz
-  url: https://github.com/ralph-group/pymeasure/archive/{{ version }}.tar.gz
+  fn: v{{ version }}.tar.gz
+  url: https://github.com/ralph-group/pymeasure/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -49,3 +49,4 @@ extra:
     - melund
     - ddale
     - cjermain
+
