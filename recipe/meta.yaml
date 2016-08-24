@@ -1,5 +1,5 @@
-{% set version = "v0.4.1" %}
-{% set sha256 = "5338631dff97790ea9ab98130d57ab5565da3eae0c612105dd334d478b0f6c07" %}
+{% set version = "v0.4.2" %}
+{% set sha256 = "541616df177e13f914fca2f749c64f723d7b83c8ea9096509c9f318676ea91da" %}
 
 package:
   name: pymeasure
