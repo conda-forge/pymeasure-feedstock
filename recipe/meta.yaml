@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: True  # [py2k]
 
@@ -25,7 +25,7 @@ requirements:
     - pandas >=0.14
     - pyvisa >=1.8
     - pyserial >=2.7
-    - pyqtgraph >=0.9.10
+    - pyqt 4.11.*
 
 test:
   imports:
