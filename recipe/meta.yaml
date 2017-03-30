@@ -34,6 +34,7 @@ test:
 about:
   home: https://github.com/ralph-group/pymeasure
   license: MIT
+  license_file: LICENSE.txt
   summary: Scientific measurement library for instruments, experiments, and live-plotting.
   description: |
     PyMeasure makes scientific measurements easy to set up and run. The package contains a 
