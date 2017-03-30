@@ -16,6 +16,18 @@ experiments. Both parts of the package are independent, and when combined provid
 all the necessary requirements for advanced measurements with only limited coding.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pymeasure-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pymeasure-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pymeasure-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pymeasure-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pymeasure-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pymeasure-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymeasure/badges/version.svg)](https://anaconda.org/conda-forge/pymeasure)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymeasure/badges/downloads.svg)](https://anaconda.org/conda-forge/pymeasure)
+
 Installing pymeasure
 ====================
 
@@ -36,7 +48,6 @@ It is possible to list all of the versions of `pymeasure` available on your plat
 ```
 conda search pymeasure --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -72,18 +83,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pymeasure-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pymeasure-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pymeasure-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pymeasure-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pymeasure-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pymeasure-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymeasure/badges/version.svg)](https://anaconda.org/conda-forge/pymeasure)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pymeasure/badges/downloads.svg)](https://anaconda.org/conda-forge/pymeasure)
 
 
 Updating pymeasure-feedstock
