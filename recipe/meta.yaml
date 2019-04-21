@@ -1,5 +1,5 @@
-{% set version = "0.6" %}
-{% set sha256 = "ea60aca114d1663bf3fcc333939d120024853792dde80af999d1c3e0836470f2" %}
+{% set version = "0.6.1" %}
+{% set sha256 = "7440562e70a52a73e781415aa92587027c4a1f9ec4efefd4685908b510eb35b2" %}
 
 package:
   name: pymeasure
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   skip: True  # [py2k]
 
