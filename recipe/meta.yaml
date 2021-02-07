@@ -1,5 +1,5 @@
-{% set version = "0.8" %}
-{% set sha256 = "38bd38dac8ba7fef95cce1ce6faff2d9d0b1947408c30f15695d6353d83d16a3" %}
+{% set version = "0.9" %}
+{% set sha256 = "048d7dc3df712a4f30aa1dbb826e5e97f5a14b98c747470b7590dcee5e3a5543" %}
 
 package:
   name: pymeasure
@@ -7,7 +7,7 @@ package:
 
 source:
   fn: v{{ version }}.tar.gz
-  url: https://github.com/ralph-group/pymeasure/archive/v{{ version }}.tar.gz
+  url: https://github.com/pymeasure/pymeasure/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -33,7 +33,7 @@ test:
     - pymeasure
 
 about:
-  home: https://github.com/ralph-group/pymeasure
+  home: https://github.com/pymeasure/pymeasure
   license: MIT
   license_file: LICENSE.txt
   summary: Scientific measurement library for instruments, experiments, and live-plotting.
@@ -44,10 +44,12 @@ about:
     experiments. Both parts of the package are independent, and when combined provide 
     all the necessary requirements for advanced measurements with only limited coding.
   doc_url: http://pymeasure.readthedocs.io
-  dev_url: https://github.com/ralph-group/pymeasure
+  dev_url: https://github.com/pymeasure/pymeasure
 
 extra:
   recipe-maintainers:
     - melund
     - ddale
     - cjermain
+    - bilderbuchi
+    - CasperSchippers
