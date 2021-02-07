@@ -1,7 +1,7 @@
 About pymeasure
 ===============
 
-Home: https://github.com/ralph-group/pymeasure
+Home: https://github.com/pymeasure/pymeasure
 
 Package license: MIT
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymeasure-feeds
 
 Summary: Scientific measurement library for instruments, experiments, and live-plotting.
 
-Development: https://github.com/ralph-group/pymeasure
+Development: https://github.com/pymeasure/pymeasure
 
 Documentation: http://pymeasure.readthedocs.io
 
@@ -238,4 +238,6 @@ Feedstock Maintainers
 * [@cjermain](https://github.com/cjermain/)
 * [@ddale](https://github.com/ddale/)
 * [@melund](https://github.com/melund/)
+* [@bilderbuchi](https://github.com/bilderbuchi/)
+* [@CasperSchippers](https://github.com/CasperSchippers/)
 
