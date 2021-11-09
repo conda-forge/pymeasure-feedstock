@@ -1,36 +1,41 @@
-{% set version = "0.9" %}
-{% set sha256 = "048d7dc3df712a4f30aa1dbb826e5e97f5a14b98c747470b7590dcee5e3a5543" %}
+{% set name = "pymeasure" %}
+{% set version = "0.9.0" %}
+
 
 package:
-  name: pymeasure
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: v{{ version }}.tar.gz
-  url: https://github.com/pymeasure/pymeasure/archive/v{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMeasure-{{ version }}.tar.gz
+  sha256: d1df3c1bbd56a7ce3eaed36f8a76d35954d019e75b43962bd6c7b65028eae996
 
 build:
-  number: 2
-  script: "{{ PYTHON }} -m pip install . -vv"
-  skip: True  # [py2k]
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - pytest-runner
   run:
-    - python
+    - python >=3.6
     - numpy >=1.6.1
     - pandas >=0.14
-    - pyvisa >=1.8
-    - pyserial >=2.7
     - pyqtgraph >=0.9.10
+    - pyserial >=2.7
+    - pyvisa >=1.8
 
 test:
   imports:
     - pymeasure
+    - pymeasure.adapters
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/pymeasure/pymeasure
