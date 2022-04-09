@@ -1,5 +1,5 @@
 {% set name = "pymeasure" %}
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 
 package:
@@ -8,20 +8,20 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMeasure-{{ version }}.tar.gz
-  sha256: d1df3c1bbd56a7ce3eaed36f8a76d35954d019e75b43962bd6c7b65028eae996
+  sha256: 477027c3bb8c574437a27bf965f912612246748cd76f71c0387769745e01d77d
 
 build:
-  number: 3
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - pytest-runner
   run:
-    - python >=3.6
+    - python >=3.7
     - numpy >=1.6.1
     - pandas >=0.14
     - pyqtgraph >=0.9.10
