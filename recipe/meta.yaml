@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMeasure-{{ version }}.tar.gz
-  sha256: 477027c3bb8c574437a27bf965f912612246748cd76f71c0387769745e01d77d
+  sha256: bb06ff13513ddb507bcde4c82440009599ba1ffe8cb970a39193cb6f4a8acbd8
 
 build:
   number: 0
