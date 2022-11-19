@@ -1,5 +1,5 @@
 {% set name = "pymeasure" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMeasure-{{ version }}.tar.gz
-  sha256: bb06ff13513ddb507bcde4c82440009599ba1ffe8cb970a39193cb6f4a8acbd8
+  sha256: 56e0600b5dc67231dd2f2755123425205f073ee58735ce4b91ebbfe2b8a9c727
 
 build:
   number: 0
@@ -24,6 +24,7 @@ requirements:
     - python >=3.7
     - numpy >=1.6.1
     - pandas >=0.14
+    - pint
     - pyqtgraph >=0.9.10
     - pyserial >=2.7
     - pyvisa >=1.8
