@@ -1,11 +1,11 @@
-About pymeasure
-===============
+About pymeasure-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymeasure-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pymeasure/pymeasure
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymeasure-feedstock/blob/main/LICENSE.txt)
 
 Summary: Scientific measurement library for instruments, experiments, and live-plotting.
 
