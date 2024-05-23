@@ -1,5 +1,5 @@
 {% set name = "pymeasure" %}
-{% set version = "0.13.1" %}
+{% set version = "0.14.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMeasure-{{ version }}.tar.gz
-  sha256: 6c6f101407fef1a2218c63f333d0eeeb3c5cf614433d3a1331480988022ad520
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: bbe91bbe3241992a616f165c30d150f01cc900309a7926f605690aa845911742
 
 build:
   number: 0
@@ -19,15 +19,15 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - pytest-runner
+    - setuptools_scm >=8.1.0
   run:
     - python >=3.8
-    - numpy >=1.6.1
-    - pandas >=0.14
+    - numpy >=1.6.1,<3
+    - pandas >=0.14,<3
     - pint
     - pyqtgraph >=0.12
     - pyserial >=2.7
-    - pyvisa >=1.8
+    - pyvisa >=1.9
 
 test:
   imports:
