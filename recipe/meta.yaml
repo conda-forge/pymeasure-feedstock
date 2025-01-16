@@ -1,5 +1,5 @@
 {% set name = "pymeasure" %}
-{% set version = "0.14.0" %}
+{% set version = "0.15.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bbe91bbe3241992a616f165c30d150f01cc900309a7926f605690aa845911742
+  sha256: 2867db427948ac3487b365c64ed5805507899808b08450285327f21e72a36ae1
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
