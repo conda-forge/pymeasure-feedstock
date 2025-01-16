@@ -21,6 +21,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
+    - setuptools
     - setuptools_scm >=8.1.0
   run:
     - python >=${{ python_min }}
