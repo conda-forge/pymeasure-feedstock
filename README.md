@@ -11,14 +11,13 @@ Summary: Scientific measurement library for instruments, experiments, and live-p
 
 Development: https://github.com/pymeasure/pymeasure
 
-Documentation: http://pymeasure.readthedocs.io
+Documentation: http://pymeasure.readthedocs.io/
 
 PyMeasure makes scientific measurements easy to set up and run. The package contains a
 repository of instrument classes and a system for running experiment procedures,
 which provides graphical interfaces for graphing live data and managing queues of
 experiments. Both parts of the package are independent, and when combined provide
 all the necessary requirements for advanced measurements with only limited coding.
-
 
 Current build status
 ====================
@@ -154,6 +153,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@BenediktBurger](https://github.com/BenediktBurger/)
 * [@CasperSchippers](https://github.com/CasperSchippers/)
 * [@bilderbuchi](https://github.com/bilderbuchi/)
 * [@cjermain](https://github.com/cjermain/)
